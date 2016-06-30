@@ -34,10 +34,6 @@ intersection(a, b)
 ---
 Calculates the intersection rectangle of two rectangles. Rectangles have to intersect to work properly!
 
-shortestDirection(from, to)
----
-Determines what the shortest rotation direction is to go from one angle to another. The result is positive if it's clock-wise.
-
 normalize(a)
 ---
 Normalizes a rectangle to ensure `x1 < x2` and `y1 < y2`.
