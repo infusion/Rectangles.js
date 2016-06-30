@@ -60,7 +60,7 @@ Resizes the rectangle by a given value on the center
 
 Installation
 ===
-Installing Angles.js is as easy as cloning this repo or use one of the following commands:
+Installing Rectangles.js is as easy as cloning this repo or use one of the following commands:
 
 ```
 bower install rectangle
@@ -77,7 +77,7 @@ Using Rectangles.js with the browser
 ```html
 <script src="rectangles.js"></script>
 <script>
-console.log(Angles.center(A));
+console.log(Rectangles.center(A));
 </script>
 ```
 
@@ -86,16 +86,16 @@ Using Rectangles.js with require.js
 ```html
 <script src="require.js"></script>
 <script>
-requirejs(['angles.js'],
-function(Angles) {
-    console.log(Angles.normalize(128));
+requirejs(['rectangles.js'],
+function(Rectangles) {
+    console.log(Rectangles.normalize(128));
 });
 </script>
 ```
 
 Coding Style
 ===
-As every library I publish, Angles.js is also built to be as small as possible after compressing it with Google Closure Compiler in advanced mode. Thus the coding style orientates a little on maxing-out the compression rate. Please make sure you keep this style if you plan to extend the library.
+As every library I publish, Rectangles.js is also built to be as small as possible after compressing it with Google Closure Compiler in advanced mode. Thus the coding style orientates a little on maxing-out the compression rate. Please make sure you keep this style if you plan to extend the library.
 
 Testing
 ===
