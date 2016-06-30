@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+        <title>Rectangle Intersection Test</title>
+    </head>
+    <body>
+
+        <canvas id="canvas"></canvas>
+
+        <script src="../rectangles.js"></script>
+
+        <script>
+
+            function drawRect(a, col) {
+
+              ctx.fillStyle = col || a.col;
+              ctx.fillRect(a.x1, a.y1, a.x2 - a.x1, a.y2 - a.y1);
+            }
+
+            var canvas = document.getElementById('canvas');
+            var ctx = canvas.getContext("2d");
+
+            canvas.height = 500;
+            canvas.width = 500;
+
+            var A = {x1: 20, y1: 20, x2: 100, y2: 100, col: "red"};
+            var B = {x1: 80, y1: 80, x2: 300, y2: 300, col: "green"};
+
+            drawRect(A);
+            drawRect(B);
+            drawRect(Rectangles.intersection(A, B), 'blue');
+
+        </script>
+
+    </body>
+</html>

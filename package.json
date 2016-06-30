@@ -1,0 +1,30 @@
+{
+    "name": "rectangles",
+    "title": "rectangles.js",
+    "version": "0.0.1",
+    "homepage": "https://github.com/infusion/Rectangles.js",
+    "bugs": "https://github.com/infusion/Rectangles.js/issues",
+    "description": "A function collection for working with rectangles",
+    "keywords": ["rectangle", "rectangles", "intersection", "area"],
+    "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
+    "main": "rectangles",
+    "private": false,
+    "readmeFilename": "README.md",
+    "license": "MIT OR GPL-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/infusion/Rectangles.js.git"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "scripts": {
+        "test": "mocha tests/*.js"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "gulp": "*",
+        "google-closure-compiler": "*"
+    }
+}
