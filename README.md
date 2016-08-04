@@ -1,4 +1,4 @@
-# Rectangles.js 
+# Rectangles.js
 
 [![NPM Package](https://img.shields.io/npm/v/rectangles.svg?style=flat)](https://npmjs.org/package/rectangles "View this project on npm")
 [![Build Status](https://travis-ci.org/infusion/Rectangles.js.svg)](https://travis-ci.org/infusion/Rectangles.js)
@@ -49,6 +49,10 @@ Calculates the height of a rectangle
 width(a)
 ---
 Calculates the width of a rectangle
+
+perimater(a)
+---
+Calculates the perimeter of a rectangle
 
 center(a)
 ---

@@ -12,7 +12,7 @@
   var Rectangles = {
     /**
      * Determines if two rectangles intersect
-     * 
+     *
      * @param {Object} a
      * @param {Object} b
      * @returns {boolean}
@@ -24,7 +24,7 @@
     /**
      * Calculates the intersection rectangle of two rectangles.
      * Rectangles have to intersect to work!
-     * 
+     *
      * @param {Object} a
      * @param {Object} b
      * @returns {Object}
@@ -40,7 +40,7 @@
     },
     /**
      * Normalizes a rectangle to ensure x1 < x2 and y1 < y2
-     * 
+     *
      * @param {Object} a
      * @returns {Object}
      */
@@ -55,17 +55,17 @@
     },
     /**
      * Calculates the area of a rectangle
-     * 
+     *
      * @param {Object} a
      * @returns {number}
      */
     'area': function(a) {
 
-      return (a['x2'] - a['x1']) * (a['y2'] - a['y1']);
+      return Math.abs(a['x2'] - a['x1']) * Math.abs(a['y2'] - a['y1']);
     },
     /**
      * Calculates the height of a rectangle
-     * 
+     *
      * @param {Object} a
      * @returns {number}
      */
@@ -75,7 +75,7 @@
     },
     /**
      * Calculates the width of a rectangle
-     * 
+     *
      * @param {Object} a
      * @returns {number}
      */
@@ -84,8 +84,18 @@
       return Math.abs(a['x2'] - a['x1']);
     },
     /**
+     * Calculates the perimeter of a rectangle
+     *
+     * @param {Object} a
+     * @returns {number}
+     */
+    'perimeter': function(a) {
+
+      return 2 * (Math.abs(a['x2'] - a['x1']) + Math.abs(a['y2'] - a['y1']));
+    },
+    /**
      * Calculates the center point of a rectangle
-     * 
+     *
      * @param {Object} a
      * @returns {Object}
      */
@@ -98,7 +108,7 @@
     },
     /**
      * Resizes the rectangle by a given value on the center
-     * 
+     *
      * @param {Object} a
      * @param {number} w
      * @returns {Object}

@@ -5,6 +5,7 @@ var rects = require('../rectangles.js');
 var tests = [
   {m: 'intersect', p: [{x1: 20, y1: 20, x2: 100, y2: 100}, {x1: 80, y1: 80, x2: 300, y2: 300}], r: true},
   {m: 'intersect', p: [{x1: 20, y1: 20, x2: 70, y2: 70}, {x1: 80, y1: 80, x2: 300, y2: 300}], r: false},
+  {m: 'perimeter', p: [{x1: 20, y1: 20, x2: 28, y2: 24}], r: 24}
 ];
 
 describe('Rectangles', function() {
@@ -25,4 +26,3 @@ describe('Rectangles', function() {
     })(i);
   }
 });
-
