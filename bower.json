@@ -5,7 +5,7 @@
     "homepage": "https://github.com/infusion/Rectangle.js",
     "description": "A function collection for working with rectangles",
     "keywords": [
-        "rectangle", "rectangles", "intersection", "area"
+        "rectangle", "rectangles", "intersection", "area", "perimeter"
     ],
     "moduleType": [
       "amd",
