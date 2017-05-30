@@ -72,7 +72,7 @@ bower install rectangle
 or
 
 ```
-npm install --save rectangles
+npm install rectangles
 ```
 
 
