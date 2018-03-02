@@ -9,7 +9,7 @@
 
   'use strict';
 
-  var Rectangles = {
+  const Rectangles = {
     /**
      * Determines if two rectangles intersect
      *

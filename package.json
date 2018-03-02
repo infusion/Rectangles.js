@@ -5,7 +5,13 @@
     "homepage": "https://github.com/infusion/Rectangles.js",
     "bugs": "https://github.com/infusion/Rectangles.js/issues",
     "description": "A function collection for working with rectangles",
-    "keywords": ["rectangle", "rectangles", "intersection", "area", "perimeter"],
+    "keywords": [
+        "rectangle",
+        "rectangles",
+        "intersection",
+        "area",
+        "perimeter"
+    ],
     "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
     "main": "rectangles",
     "private": false,
