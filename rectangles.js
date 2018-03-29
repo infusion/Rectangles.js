@@ -1,5 +1,5 @@
 /**
- * @license Rectangles.js v0.0.1 08/04/2016
+ * @license Rectangles.js v0.0.2 08/04/2016
  *
  * Copyright (c) 2016, Robert Eisele (robert@xarg.org)
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -129,7 +129,10 @@
       return Rectangles;
     });
   } else if (typeof exports === "object") {
-    module["exports"] = Rectangles;
+    Object.defineProperty(exports, "__esModule", {'value': true});
+    module['exports'] = Rectangles;
+    exports['Angles'] = Rectangles;
+    exports['default'] = Rectangles;
   } else {
     root['Rectangles'] = Rectangles;
   }
