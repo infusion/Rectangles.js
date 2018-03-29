@@ -1,7 +1,7 @@
 {
     "name": "rectangles",
     "title": "rectangles.js",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "homepage": "https://github.com/infusion/Rectangles.js",
     "bugs": "https://github.com/infusion/Rectangles.js/issues",
     "description": "A function collection for working with rectangles",
