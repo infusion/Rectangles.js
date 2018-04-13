@@ -1,5 +1,5 @@
 /**
- * @license Rectangles.js v0.0.3 08/04/2016
+ * @license Rectangles.js v0.0.4 08/04/2016
  *
  * Copyright (c) 2016, Robert Eisele (robert@xarg.org)
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -9,7 +9,7 @@
 
   'use strict';
 
-  const Rectangles = {
+  var Rectangles = {
     /**
      * Determines if two rectangles intersect
      *
